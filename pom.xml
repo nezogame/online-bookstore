@@ -15,12 +15,15 @@
 	<description>An online bookstore application where users can browse and purchase books. This project will cover various aspects of web development, database management, and backend processing using Spring, Spring Boot, and Hibernate.</description>
 	<properties>
 		<java.version>20</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>20</maven.compiler.source>
+		<maven.compiler.target>20</maven.compiler.target>
 	</properties>
 	<dependencies>
-		<!--<dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>-->
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
